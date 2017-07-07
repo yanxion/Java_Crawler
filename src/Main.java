@@ -1,13 +1,10 @@
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLClientInfoException;
-import java.sql.Statement;
-
 /**
  * Created by P17179 on 2017/7/7.
  */
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 public class Main {
     public static void main(String[] args) {
         MySQL News_DB = new MySQL();
@@ -33,8 +30,6 @@ public class Main {
                 //System.out.println(sql_query);
                 st.execute(sql_query);
             }
-
-
 
         }catch(Exception e) {
             // handle the exception

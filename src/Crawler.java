@@ -1,12 +1,9 @@
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-
-import java.io.IOException;
-
 /**
  * Created by P17179 on 2017/7/7.
  */
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 class Crawler {
     public String [] Crawl_List(String Web_url,String News_Type) throws Exception{
         String [] List_Array;
